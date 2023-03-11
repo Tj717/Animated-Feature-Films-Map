@@ -1,0 +1,22 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3408925,
+                    47.61239802
+                ]
+            },
+            "properties": {
+                "Report Number": 2022,
+                "Offense Parent Group": "ASSAULT OFFENSES",
+                "Offense": "Simple Assault",
+                "Offense Code": "13B",
+                "MCPP": "SLU/CASCADE"
+            }
+        }
+    ]
+}
