@@ -1,0 +1,20 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3408925,
+                    47.61239802
+                ]
+            },
+            "properties": {
+                "name": "Spirited Away",
+                "description": "",
+                "media": ""
+            }
+        }
+    ]
+}

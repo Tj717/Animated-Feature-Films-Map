@@ -11,11 +11,9 @@
                 ]
             },
             "properties": {
-                "Report Number": 2022,
-                "Offense Parent Group": "ASSAULT OFFENSES",
-                "Offense": "Simple Assault",
-                "Offense Code": "13B",
-                "MCPP": "SLU/CASCADE"
+                "name": "Wolf Children",
+                "description": " ",
+                "media": ""
             }
         }
     ]
