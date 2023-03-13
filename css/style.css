@@ -142,7 +142,7 @@ a:link {
     margin-bottom: 0.2%;
     margin-left: 1%;
     margin-right: 1%;
-    height: 30vw;
+    height: 25vw;
     background-color: rgb(186, 242, 255);
     display: flex;
     align-items: center;
@@ -162,11 +162,14 @@ a:link {
     margin-top: 0.5vw;
     font-size: 0.9vw;
     margin-right: 1.5vw;
+    margin-left: 1vw;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
     /* flex-wrap: nowrap; */
 }
 
 .poster {
-    max-height: 25vw;
+    max-height: 24vw;
     max-width: 20vw;
     margin-left: 2%;
     margin-right: 3%;

@@ -1,5 +1,9 @@
 {
     "type": "FeatureCollection",
+    "properties": {
+        "name": "Barefoot Gen",
+        "description": "<em>Barefoot Gen (Japanese: はだしのゲン)</em> is a 1983 Japanese anime war drama film loosely based on the Japanese manga series of the same name by Keiji Nakazawa. Directed by Mori Masaki, it depicts World War II in Japan from a child's point of view revolving around the events surrounding the bombing of Hiroshima and the main character's first hand experience of the bomb."
+    },
     "features": [
         {
             "type": "Feature",
@@ -12,7 +16,7 @@
             },
             "properties": {
                 "name": "Barefoot Gen",
-                "description": "<em>Barefoot Gen</em> is a 1983 Japanese anime war drama film loosely based on the Japanese manga series of the same name by Keiji Nakazawa. Directed by Mori Masaki, it depicts World War II in Japan from a child's point of view revolving around the events surrounding the bombing of Hiroshima and the main character's first hand experience of the bomb.",
+                "description": "",
                 "media": ""
             }
         }

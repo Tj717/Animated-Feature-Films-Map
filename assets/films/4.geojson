@@ -1,5 +1,9 @@
 {
     "type": "FeatureCollection",
+    "properties": {
+        "name": "Grave of the Fireflies",
+        "description": "<em>Grave of the Fireflies  (Japanese: 火垂るの墓)</em> is a 1988 Japanese animated war tragedy film based on a 1967 short story by Akiyuki Nosaka. It was written and directed by Isao Takahata, and animated by Studio Ghibli. It tells the story of two siblings and war orphans and their desperate struggle to survive during the final months of the Second World War. It has been ranked as one of the greatest war films of all time and is recognized as a major work of Japanese animation."
+    },
     "features": [
         {
             "type": "Feature",
@@ -9,7 +13,7 @@
             },
             "properties": {
                 "name": "Grave of the Fireflies",
-                "description": "<em>Grave of the Fireflies</em> is a 1988 Japanese animated war tragedy film based on a 1967 short story by Akiyuki Nosaka. It was written and directed by Isao Takahata, and animated by Studio Ghibli. It tells the story of two siblings and war orphans and their desperate struggle to survive during the final months of the Second World War. It has been ranked as one of the greatest war films of all time and is recognized as a major work of Japanese animation.",
+                "description": "",
                 "media": ""
             }
         }
