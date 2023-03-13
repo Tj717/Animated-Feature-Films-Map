@@ -5,14 +5,11 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [
-                    -122.3408925,
-                    47.61239802
-                ]
+                "coordinates": [0,0]        
             },
             "properties": {
                 "name": "Spirited Away",
-                "description": "",
+                "description": "<em>Spirited Away (Japanese: 千と千尋の神隠し)</em> is a 2001 Japanese animated fantasy film written and directed by Hayao Miyazaki, animated by Studio Ghibli. It tells a story of Chihiro, a ten-year-old girl who, while moving to a new neighborhood, enters the world of spirits. It is the only hand-drawn and non-English-language animated film to had won the Academy Award for Best Animated Feature.",
                 "media": ""
             }
         }

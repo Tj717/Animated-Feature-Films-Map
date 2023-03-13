@@ -5,7 +5,7 @@ let map = new mapboxgl.Map({
     container: 'map', 
     style: 'mapbox://styles/tj202222/clf4j1ule000s01sbvgpc1eua',
     zoom: 4.8, 
-    center: [140, 37],
+    center: [144, 37.5],
     projection: {
         name: 'albers',
         center: [140, 37],
@@ -16,36 +16,45 @@ let map = new mapboxgl.Map({
 let layer_prev;
 let layer_curr;
 
-async function addData() {
+async function addData(id) {
     // Load data from local file
-    let response = await fetch(`assets/data.geojson`);
+    let response = await fetch(`assets/films/${id}.geojson`);
     let data = await response.json();
-    map.on('load', () => { 
-        map.addSource('films', {
-            type: 'geojson',
-            data: data
-        });
+    // map.addSource(`film${data}`, {
+    //     type: 'geojson',
+    //     data: data
+    // });
+    // console.log(data);
 
-        const container3 = document.getElementById('container3');
-        let length = Object.keys(data['features']).length;
-        for (i = 0; i < length; i++) {
-            let item = data['features'][i];
-            let div = document.createElement("div");
-            let description = document.createElement("h3");
-            div.innerHTML = `<div class="film">
-            <img src="assets/posters/${i}.png" class="poster">
-            <h3>${data['features'][i]['properties']['name']}</h3>
-        </div>`;
-            div.addEventListener('click', () => {
-                layer_curr = `film${i}`
-                if (layer_prev != "") map.removeLayer(`film${layer_prev}_points`);
-                layer_prev = layer_curr;
-                addSource(i);
-                addPoints(i);
-            });
-            container3.appendChild(div);
-        }
-    });
+    return data;
+}
+
+function populateList() {
+    // let length = Object.keys(data['features']).length;
+    for (let i = 1; i <= 10; i++) {
+        addData(i)
+        .then(data => {createBlocks(data, i)})
+    }
+}
+
+function createBlocks(data, i) {
+    let div = document.createElement("div");
+    div.classList.add("film");
+    // div.innerHTML = `<img src="assets/posters/${i}.png" class="poster">
+    // <div class="movie">
+    // <p class="movie_description">${data['features'][0]['properties']['description']}</p>
+    // </div>`;
+    div.innerHTML = `<img src="assets/posters/${i}.png" class="poster">
+    <p class="movie_description">${data['features'][0]['properties']['description']}</p>`;
+    // div.addEventListener('click', () => {
+    //     layer_curr = `film${i}`
+    //     if (layer_prev != "") map.removeLayer(`film${layer_prev}_points`);
+    //     layer_prev = layer_curr;
+    //     addSource(i);
+    //     addPoints(i);
+    // });
+    const container3 = document.getElementById('container3');
+    container3.appendChild(div);
 }
 
 function filterJson (data, keyWord) {
@@ -53,8 +62,6 @@ function filterJson (data, keyWord) {
         "type": "FeatureCollection",
         "features": []
     };
-    searchField = "CrimeAgainstCategory";
-    searchVal = keyWord;
     length = Object.keys(data['features']).length;
     for (i = 0; i < length; i++) {
         // print(data['features'][i]['properties'])
@@ -89,3 +96,5 @@ function addPoints(layer) {
         }
     });
 }
+
+populateList();

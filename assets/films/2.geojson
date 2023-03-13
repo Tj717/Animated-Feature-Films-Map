@@ -5,14 +5,11 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [
-                    -122.3408925,
-                    47.61239802
-                ]
+                "coordinates": [0,0]        
             },
             "properties": {
                 "name": "Kiki's Delivery Service",
-                "description": "",
+                "description": "<em>Kiki's Delivery Service (Japanese: 魔女の宅急便)</em> is a 1989 Japanese animated fantasy film written, produced, and directed by Hayao Miyazaki, adapted from the 1985 novel Kiki's Delivery Service by Eiko Kadono. The story follows Kiki, a young witch who moves to a new town and uses her flying ability to earn a living. According to Miyazaki, the movie portrays the gulf between independence and reliance in teenage Japanese girls.",
                 "media": ""
             }
         }
