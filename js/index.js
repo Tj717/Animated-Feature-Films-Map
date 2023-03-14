@@ -55,15 +55,17 @@ function createBlocks(data, i) {
             for (let marker of markers) marker.remove();
         }
         addPoints(data, i);
-        map.fitBounds([
-            data['properties']['sw'], 
-            data['properties']['ne']
-        ]);
-        // map.flyTo({
-        //     center: data['properties']['center'],
-        //     essential: true,
-        //     zoom: data['properties']['zoom']
-        // });
+        if (data['properties']['real_location']) {
+            map.fitBounds([
+                data['properties']['sw'], 
+                data['properties']['ne']
+            ]);
+        } else {
+            map.flyTo({
+                center: [144, 37.5],
+                zoom: 5
+            });
+        }
     });
     const container3 = document.getElementById('container3');
     container3.appendChild(div);
@@ -131,21 +133,6 @@ async function readFile(file) {
     const response = await fetch(file)
     const text = await response.text()
     return text;
-}
-
-function filterJson (data, keyWord) {
-    let output = {
-        "type": "FeatureCollection",
-        "features": []
-    };
-    length = Object.keys(data['features']).length;
-    for (i = 0; i < length; i++) {
-        // print(data['features'][i]['properties'])
-        if (data['features'][i]['properties'][searchField].includes(searchVal)){
-            output['features'].push(data['features'][i])
-        }
-    }
-    return output
 }
 
 // Next/previous controls

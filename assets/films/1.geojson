@@ -2,7 +2,8 @@
     "type": "FeatureCollection",
     "properties": {
         "name": "My Neighbor Totoro",
-        "description": "<em>My Neighbor Totoro (Japanese: となりのトトロ)</em> is a 1988 Japanese animated fantasy film that was written and directed by Hayao Miyazaki and animated by Studio Ghibli for Tokuma Shoten. The film tells the story of a professor's young daughters Satsuki and Mei, and their interactions with friendly wood spirits in postwar rural Japan."
+        "description": "<em>My Neighbor Totoro (Japanese: となりのトトロ)</em> is a 1988 Japanese animated fantasy film that was written and directed by Hayao Miyazaki and animated by Studio Ghibli for Tokuma Shoten. The film tells the story of a professor's young daughters Satsuki and Mei, and their interactions with friendly wood spirits in postwar rural Japan.",
+        "real_location": true
     },
     "features": [
         {
