@@ -260,16 +260,17 @@ font-family: 'Open Sans', sans-serif;
 
 /* Caption text */
 .text {
-  color: #ffff00;
-  font-size: 15px;
+  color: #56ff43;
+  font-size: 1.5vw;
   padding: 8px 12px;
   position: absolute;
-  bottom: 8px;
+  bottom: 2px;
   width: 50%;
   margin-left: 25vw;
   margin-top: 15vw;
   text-align: center;
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 3px 3px 4px black;
+
 }
 
 /* Number text (1/3 etc) */
@@ -294,7 +295,7 @@ font-family: 'Open Sans', sans-serif;
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: #00f7ff;
 }
 
 /* Fading animation */
@@ -304,10 +305,10 @@ font-family: 'Open Sans', sans-serif;
 }
 
 .mySlides img {
-  width: 60%;
-  height: 50%;
-  margin-left: 20%;
-  margin-top: 5%;
+  width: 75vw;
+  height: 35vw;
+  margin-left: 12.5vw;
+  margin-top: 5vw;
 }
 
 @keyframes fade {
@@ -316,25 +317,26 @@ font-family: 'Open Sans', sans-serif;
 }
 
 iframe {
-  width: 100%;
-  min-width: 800px;
-  height: 100%;
-  min-height: 600px;
-  margin-top: 5%;
+  width: 54vw;
+  height: 30vw;
+  margin-top: 5vw;
+  margin-left: 23vw;
   background: transparent;
   border: none;
 }
 
 #close_button {
-  background-color: aliceblue; 
-  width: 8vw; 
-  height: 1.5vw;
+  background-color: rgb(71, 169, 255); 
+  color: rgb(0, 0, 0);
+  width: 5vw; 
+  height: 2vw;
   margin-top: 3vw;
-  margin-left: 46vw;
+  margin-left: 47.5vw;
   text-align: center;
-  font-size: 1vw;
+  font-size: 1.5vw;
   border-radius: 5px;
   border: 3px solid rgb(89, 0, 255);
+  opacity: 100%;
 }
 
 #close_button:hover {

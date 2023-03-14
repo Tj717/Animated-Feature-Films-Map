@@ -78,7 +78,8 @@ function addPoints(data, i) {
             map.flyTo({center: feature.geometry.coordinates, zoom:15});
             setTimeout(() => {
                 showOverlay(data, i);
-            }, 2000);
+            }, 800);
+            // showOverlay(data, i);
         }
     );
         // make a marker for each feature and add it to the map
@@ -105,7 +106,7 @@ function showOverlay(data, i) {
 
 
     let close_button = document.createElement('div');
-    close_button.textContent = "Close this window";
+    close_button.textContent = "Close";
     close_button.id = "close_button";
     close_button.addEventListener('click', () => {
         document.getElementById("overlay").style.display = "none";
