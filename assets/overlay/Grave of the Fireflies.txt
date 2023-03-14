@@ -5,13 +5,13 @@
     <div class="mySlides fade">
       <div class="numbertext">1 / 7</div>
       <iframe src="../assets/clips/Grave of the Fireflies/trip1-23.30.mp4" width="70vw" height="90%"></iframe>
-      <div class="text">Seita traveling from Nishinomiya to Kobe to get supplies from his home, at 23:30 of the movie</div>
+      <div class="text">Seita traveling from Kobe to Nishinomiya after getting supplies from his home, at 23:30 of the movie</div>
     </div>
   
     <div class="mySlides fade">
       <div class="numbertext">2 / 7</div>
       <iframe src="../assets/clips/Grave of the Fireflies/trip2-24.20.mp4" width="70vw" height="90%"></iframe>
-      <div class="text">Seita traveling from Nishinomiya to Kobe to get supplies from his home, at 24.20 of the movie.</div>
+      <div class="text">Seita traveling from Kobe to Nishinomiya after getting supplies from his home, at 24.20 of the movie.</div>
     </div>
   
     <div class="mySlides fade">

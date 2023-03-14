@@ -19,8 +19,10 @@ let map = new mapboxgl.Map({
     // }
 });
 
-let layer_prev;
-let layer_curr;
+
+let slideIndex = 1;
+let markers = [];
+let marker;
 
 async function addData(id) {
     // Load data from local file
@@ -49,9 +51,9 @@ function createBlocks(data, i) {
     <p class="movie_description">${data['properties']['description']}</p>`;
 
     div.addEventListener('click', () => {
-        layer_curr = `film${i}`
-        if (layer_prev) map.removeLayer(`${layer_prev}_points`);
-        layer_prev = layer_curr;
+        if (markers) {
+            for (let marker of markers) marker.remove();
+        }
         addPoints(data, i);
         map.fitBounds([
             data['properties']['sw'], 
@@ -68,6 +70,14 @@ function createBlocks(data, i) {
 }
 
 function addPoints(data, i) {
+    if (data['properties']['real_location']) {
+        addMarkers(data, i);
+    } else {
+        showOverlay(data, i);
+    }
+}
+
+function addMarkers(data, i) {
     for (const feature of data['features']) {
         // create a HTML element for each feature
         let el = document.createElement('div');
@@ -79,11 +89,9 @@ function addPoints(data, i) {
             setTimeout(() => {
                 showOverlay(data, i);
             }, 800);
-            // showOverlay(data, i);
-        }
-    );
+        });
         // make a marker for each feature and add it to the map
-        new mapboxgl.Marker(el)
+        marker = new mapboxgl.Marker(el)
           .setLngLat(feature.geometry.coordinates)
           .setPopup(
             new mapboxgl.Popup({ offset: 25 }) // add popups
@@ -92,10 +100,9 @@ function addPoints(data, i) {
               )
           )
           .addTo(map);
-        }
-
+        markers.push(marker);
+    }
 }
-let slideIndex = 1;
 
 function showOverlay(data, i) {
     let overlay = document.getElementById('overlay');
@@ -104,21 +111,20 @@ function showOverlay(data, i) {
 
     // https://www.w3schools.com/howto/howto_js_slideshow.asp
 
-
     let close_button = document.createElement('div');
     close_button.textContent = "Close";
     close_button.id = "close_button";
     close_button.addEventListener('click', () => {
         document.getElementById("overlay").style.display = "none";
     });
+
     readFile(file)
     .then((text) => {
         overlay.innerHTML = text;
         overlay.style.display = "block";
-        showSlides(slideIndex);
         overlay.appendChild(close_button);
+        showSlides(slideIndex);
     })
-
 }
 
 async function readFile(file) {
