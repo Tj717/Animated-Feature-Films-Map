@@ -2,19 +2,37 @@
     "type": "FeatureCollection",
     "properties": {
         "name": "Grave of the Fireflies",
-        "description": "<em>Grave of the Fireflies  (Japanese: 火垂るの墓)</em> is a 1988 Japanese animated war tragedy film based on a 1967 short story by Akiyuki Nosaka. It was written and directed by Isao Takahata, and animated by Studio Ghibli. It tells the story of two siblings and war orphans and their desperate struggle to survive during the final months of the Second World War. It has been ranked as one of the greatest war films of all time and is recognized as a major work of Japanese animation."
+        "description": "<em>Grave of the Fireflies  (Japanese: 火垂るの墓)</em> is a 1988 Japanese animated war tragedy film based on a 1967 short story by Akiyuki Nosaka. It was written and directed by Isao Takahata, and animated by Studio Ghibli. It tells the story of two siblings and war orphans and their desperate struggle to survive during the final months of the Second World War. It has been ranked as one of the greatest war films of all time and is recognized as a major work of Japanese animation.",
+        "center": [135.33,34.73],
+        "zoom": 11,
+        "sw": [135.3744444,34.555555555],
+        "ne": [135.3542810862955,34.922222222222]
     },
     "features": [
         {
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": []
+                "coordinates": [135.19475699173637,34.71289978503101]
             },
             "properties": {
-                "name": "Grave of the Fireflies",
-                "description": "",
-                "media": ""
+                "name": "Kobe 神戸市",
+                "description": "The city of where the original home of Seita and Setsuko was located",
+                "media": "",
+                "type": "house"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [135.33397045553318,34.7503160887503]
+            },
+            "properties": {
+                "name": "Niteko Pond",
+                "description": "The place where Seita and Setsuko moved to",
+                "media": "",
+                "type": "house"
             }
         }
     ]
