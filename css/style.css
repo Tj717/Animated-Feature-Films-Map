@@ -213,6 +213,18 @@ em {
   background-image: url("../assets/icon/tree.png");
 }
 
+.memorial {
+  background-image: url("../assets/icon/memorial.png");
+}
+
+.castle {
+  background-image: url("../assets/icon/castle.png");
+}
+
+.farm {
+  background-image: url("../assets/icon/farm.png");
+}
+
 .mapboxgl-popup {
     max-width: 5vw;
 }

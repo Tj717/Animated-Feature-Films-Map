@@ -1,0 +1,83 @@
+<!-- Slideshow container -->
+<div class="slideshow-container">
+    
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 9</div>
+      <video controls>
+          <source src="../assets/clips/Paprika/chief-12.47.mp4" type="video/mp4">
+      </video>
+      <div class="text">The chief gets trapped in his dream, where he commands a parade of various creatures, at 12:47 of the movie.</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 9</div>
+      <video controls>
+          <source src="../assets/clips/Paprika/run-38.0.mp4" type="video/mp4">
+      </video>
+      <div class="text">Dr. Chiba Atsuko running while transforming into Paprika, at 38:00 of the movie.</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 9</div>
+      <img src="../assets/clips/Paprika/wukong-47.08.png" class="maintain_ratio">
+      <div class="text">Paprika turns into the Monkey King after she enters Himuro's dream to investigate what's going on, at 47:08 of the movie.</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 9</div>
+      <video controls>
+          <source src="../assets/clips/Paprika/parade-1.11.40.mp4" type="video/mp4">
+      </video>
+      <div class="text">People falls into the collective dream and turns into different creatures, at 1:11:40 of the movie.</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">5 / 9</div>
+      <img src="../assets/clips/Paprika/paparika-and-dr-1.13.35.png" class="maintain_ratio">
+      <div class="text">Dr. Chiba Atsuko meets Paprika appears together saves the chief, at 1:13:35 of the movie.</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">6 / 9</div>
+      <img src="../assets/clips/Paprika/robot-1.16.20.png">
+      <div class="text special">After eating Atsuko, Tokita's dream self looks for Paprika, at 1:16:20 of the movie.</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">7 / 9</div>
+      <img src="../assets/clips/Paprika/hole-1.16.48.png" class="maintain_ratio">
+      <div class="text">The city collapse into the blackhole, at 1:16:48 of the movie.</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">8 / 9</div>
+      <img src="../assets/clips/Paprika/meet dead friend 1.24.15.png" class="maintain_ratio">
+      <div class="text">Detective Konakawa sees the reflection of his high-school best friend, at 1:24:15 of the movie.</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">9 / 9</div>
+      <video controls>
+          <source src="../assets/clips/Paprika/satoshi movies-1.25.25.mp4" type="video/mp4">
+      </video>
+      <div class="text">Satoshi Kon's past 3 movies shown at the theatre, at 1:25:25 of the movie.</div>
+    </div>
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+
+  <br>
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span>
+  <span class="dot" onclick="currentSlide(8)"></span>
+  <span class="dot" onclick="currentSlide(9)"></span>
+</div>

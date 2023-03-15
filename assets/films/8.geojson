@@ -2,22 +2,22 @@
     "type": "FeatureCollection",
     "properties": {
         "name": "Summer Wars",
-        "description": "<em>Summer Wars (Japanese: サマーウォーズ)</em> is a 2009 Japanese animated sci-fi film directed by Mamoru Hosoda and produced by Madhouse. The film tells the story of a student tries to fix a problem he accidentally caused in OZ, a digital world, while pretending to be the fiancé of his friend at her grandmother's 90th birthday. The film was well-received by critics and the general audience and was financially successful, earning $18 million worldwide."
+        "description": "<em>Summer Wars (Japanese: サマーウォーズ)</em> is a 2009 Japanese animated sci-fi film directed by Mamoru Hosoda and produced by Madhouse. The film tells the story of a student tries to fix a problem he accidentally caused in OZ, a digital world, while pretending to be the fiancé of his friend at her grandmother's 90th birthday. The film was well-received by critics and the general audience and was financially successful, earning $18 million worldwide.",
+        "real_location": true,
+        "zoom": 12,
+        "center": [138.245930249503,36.403605095221586]
     },
     "features": [
         {
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [
-                    -122.3408925,
-                    47.61239802
-                ]
+                "coordinates": [138.245930249503,36.403605095221586]
             },
             "properties": {
-                "name": "Summer Wars",
-                "description": "",
-                "media": ""
+                "name": "Ueda Castle",
+                "description": "The castle tower east gate (as pictured) was restored in 1994, and was the inspiration for gate of the Jinnouchi family's compound in Summer Wars.",
+                "type": "castle"
             }
         }
     ]

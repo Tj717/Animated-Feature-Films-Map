@@ -2,22 +2,22 @@
     "type": "FeatureCollection",
     "properties": {
         "name": "Wolf Children",
-        "description": "<em>Wolf Children (Japanese: おおかみこどもの雨と雪)</em> is a 2012 Japanese anime drama film directed and co-written by Mamoru Hosoda. The story's depicts 13 years in the life of a young woman, Hana, who falls in love with a werewolf while in college, and following his death must raise the resulting half-wolf half-human siblings, Ame and Yuki, who grow and find their own paths in life. In total, Wolf Children grossed 4.2 billion yen, making it the fifth-highest-grossing movie in Japan in 2012."
+        "description": "<em>Wolf Children (Japanese: おおかみこどもの雨と雪)</em> is a 2012 Japanese anime drama film directed and co-written by Mamoru Hosoda. The story's depicts 13 years in the life of a young woman, Hana, who falls in love with a werewolf while in college, and following his death must raise the resulting half-wolf half-human siblings, Ame and Yuki, who grow and find their own paths in life. In total, Wolf Children grossed 4.2 billion yen, making it the fifth-highest-grossing movie in Japan in 2012.",
+        "real_location": true,
+        "zoom": 13,
+        "center": [137.3577083231738,36.70431572715309]
     },
     "features": [
         {
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [
-                    -122.3408925,
-                    47.61239802
-                ]
+                "coordinates": [137.3577083231738,36.70431572715309]
             },
             "properties": {
-                "name": "Wolf Children",
-                "description": "",
-                "media": ""
+                "name": "Kamiichi 上市町, Toyama",
+                "description": "The town has a Humid subtropical climate characterized by hot summers and cold winters with heavy snowfall.",
+                "type": "farm"
             }
         }
     ]

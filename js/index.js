@@ -14,6 +14,13 @@ let map = new mapboxgl.Map({
     },
 });
 
+map.on('zoomend', function() {
+    var zoom = map.getZoom();
+    if(zoom < 6){
+        
+    }
+});
+
 
 let slideIndex = 1;
 let markers = [];
@@ -61,6 +68,7 @@ function createBlocks(data, i) {
                     data['properties']['ne']
                 ]);
             }
+            // map.setStyle("mapbox://styles/mapbox/streets-v11");
         } else {
             alert("The following content contains spoilers. Please proceed with caution. Also, videos will contain sound.");
             map.flyTo({

@@ -2,23 +2,7 @@
     "type": "FeatureCollection",
     "properties": {
         "name": "Akira",
-        "description": "<em>Akira (Japanese: アキラ)</em>  is a 1988 Japanese adult animated cyberpunk action film directed by Katsuhiro Otomo. It tells the story of the leader of a biker gang whose childhood friend acquires incredible telekinetic abilities after a motorcycle accident, eventually threatening an entire military complex amid chaos and rebellion in the sprawling futuristic metropolis of Neo-Tokyo. It is regarded as a landmark in Japanese animation, widely considered one of the most influential and iconic anime films ever made."
-    },
-    "features": [
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -122.3408925,
-                    47.61239802
-                ]
-            },
-            "properties": {
-                "name": "Akira",
-                "description": "",
-                "media": ""
-            }
-        }
-    ]
+        "description": "<em>Akira (Japanese: アキラ)</em>  is a 1988 Japanese adult animated cyberpunk action film directed by Katsuhiro Otomo. It tells the story of the leader of a biker gang whose childhood friend acquires incredible telekinetic abilities after a motorcycle accident, eventually threatening an entire military complex amid chaos and rebellion in the sprawling futuristic metropolis of Neo-Tokyo. It is regarded as a landmark in Japanese animation, widely considered one of the most influential and iconic anime films ever made.",
+        "real_location": false
+    }
 }

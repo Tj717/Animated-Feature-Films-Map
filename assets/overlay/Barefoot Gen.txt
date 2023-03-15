@@ -1,0 +1,46 @@
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 4</div>
+      <video controls>
+          <source src="../assets/clips/Barefoot Gen/bombing-31.01.mp4" type="video/mp4">
+      </video>
+      <div class="text">American pilots droping the atomic bomb to Hiroshima, at 31:01 of the movie</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 4</div>
+      <img src="../assets/clips/Barefoot Gen/bomb.jpg" class="maintain_ratio">
+      <div class="text">What the atomic explosion looked like from aerial view.</div>
+    </div>
+
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 4</div>
+      <video controls>
+          <source src="../assets/clips/Barefoot Gen/bombing2-57.14.mp4" type="video/mp4">
+      </video>
+      <div class="text">The deployment of the second atomic bomb at Nagasaki, after Japanese government ignored the warning to surrender, at 57:14 of the movie.</div>
+    </div>
+
+
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 4</div>
+      <img src="../assets/clips/Barefoot Gen/Atomic Bomb Memorial Mound.png" class="maintain_ratio">
+      <div class="text special">The Atomic Bomb Memorial Mound at Hiroshima, located at the location of where the bomb of dropped.</div>
+    </div>
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+</div>

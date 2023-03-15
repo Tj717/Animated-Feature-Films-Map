@@ -2,22 +2,22 @@
     "type": "FeatureCollection",
     "properties": {
         "name": "Barefoot Gen",
-        "description": "<em>Barefoot Gen (Japanese: はだしのゲン)</em> is a 1983 Japanese anime war drama film loosely based on the Japanese manga series of the same name by Keiji Nakazawa. Directed by Mori Masaki, it depicts World War II in Japan from a child's point of view revolving around the events surrounding the bombing of Hiroshima and the main character's first hand experience of the bomb."
+        "description": "<em>Barefoot Gen (Japanese: はだしのゲン)</em> is a 1983 Japanese anime war drama film loosely based on the Japanese manga series of the same name by Keiji Nakazawa. Directed by Mori Masaki, it depicts World War II in Japan from a child's point of view revolving around the events surrounding the bombing of Hiroshima and the main character's first hand experience of the bomb.",
+        "real_location": true,
+        "zoom": 13,
+        "center": [132.48199352870176,34.39476905469315]
     },
     "features": [
         {
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [
-                    -122.3408925,
-                    47.61239802
-                ]
+                "coordinates": [132.45200582230754,34.39467726710274]
             },
             "properties": {
-                "name": "Barefoot Gen",
-                "description": "",
-                "media": ""
+                "name": "Atomic Bomb Memorial Burial Mound",
+                "description": "In 1946, through donations by the citizens of Hiroshima, construction of the precursor to the Atomic Bomb Memorial Mound began with the creation of a temporary memorial, ikotsu-dō (a vault where the ashes of the deceased are kept), and chapel.",
+                "type": "memorial"
             }
         }
     ]

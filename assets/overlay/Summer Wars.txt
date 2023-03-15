@@ -1,6 +1,54 @@
 <!-- Slideshow container -->
 <div class="slideshow-container">
 
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 7</div>
+      <video controls>
+          <source src="../assets/clips/Summer Wars/station-6.48.mp4" type="video/mp4">
+      </video>
+      <div class="text">Natsuki brings Kenji to her great grandmother's house, at 6:48 of the movie.</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 7</div>
+      <video controls>
+          <source src="../assets/clips/Summer Wars/house-9.14.mp4" type="video/mp4">
+      </video>
+      <div class="text">Kenji sees and amazed by Jinnouchi family's compound, at 9:14 of the movie.</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 7</div>
+      <img src="../assets/clips/Summer Wars/castle.jpg" class="maintain_ratio">
+      <div class="text">Inspiration for gate of the Jinnouchi family compound.</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 7</div>
+      <img src="../assets/clips/Summer Wars/dinner-15.15.png" class="maintain_ratio">
+      <div class="text">Jinnouchi family dinner, at 15:15 of the movie.</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">5 / 7</div>
+      <video controls>
+          <source src="../assets/clips/Summer Wars/armor-17.14.mp4" type="video/mp4">
+      </video>
+      <div class="text">Introduces Jinnouchi family's history of samurais and combats, at 14:14 of the movie</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">6 / 7</div>
+      <img src="../assets/clips/Summer Wars/farm-41.02.png" class="maintain_ratio">
+      <div class="text">Jinnouchi family member gets notified about traffic issues, at 41:02 of the movie.</div>
+    </div>
+
+        <div class="mySlides fade">
+      <div class="numbertext">7 / 7</div>
+      <img src="../assets/clips/Summer Wars/1.31.40.png" class="maintain_ratio">
+      <div class="text">Natsuki and her family's avatars fights Love Machine, at 1:31:40 of the movie.</div>
+    </div>
+
     <!-- Next and previous buttons -->
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
     <a class="next" onclick="plusSlides(1)">&#10095;</a>

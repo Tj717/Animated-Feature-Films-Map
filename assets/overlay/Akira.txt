@@ -1,0 +1,57 @@
+<!-- Slideshow container -->
+<div class="slideshow-container">
+    
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 5</div>
+      <video controls>
+          <source src="../assets/clips/Akira/tokyo-opening.mp4" type="video/mp4">
+      </video>
+      <div class="text">The explosion set by Akira in Toyko, at the opening of the movie.</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 5</div>
+      <video controls>
+          <source src="../assets/clips/Akira/neo-tokyo-3.50.mp4" type="video/mp4">
+      </video>
+      <div class="text">The motorcycle gang in Neo-Toyko, at 3:50 of the movie.</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 5</div>
+      <video controls>
+          <source src="../assets/clips/Akira/control-23.20.mp4" type="video/mp4">
+      </video>
+      <div class="text">Colonel Shikishima talks about Akira's power, at 23:20 of the movie.</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 5</div>
+      <video controls>
+          <source src="../assets/clips/Akira/akira-1.20.10.mp4" type="video/mp4">
+      </video>
+      <div class="text">The military led by Colonel Shikishima tries to stop and control Tetsuo from finding Akira, at 1:20:10 of the movie.</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">5 / 5</div>
+      <video controls>
+          <source src="../assets/clips/Akira/stadium-1.30.20.mp4" type="video/mp4">
+      </video>
+      <div class="text">Tetsuo fights Kei, who is controled and given powers by the ESPers, in the Tokyo Stadium and finds Akira, at 1:30:20 of the movie.</div>
+    </div>
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+</div>
