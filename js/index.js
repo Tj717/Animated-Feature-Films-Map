@@ -70,7 +70,7 @@ function createBlocks(data, i) {
             }
             // map.setStyle("mapbox://styles/mapbox/streets-v11");
         } else {
-            alert("The following content contains spoilers. Please proceed with caution. Also, videos will contain sound.");
+            alert("The following content contains spoilers. Videos will contain sound. Please proceed with caution.");
             map.flyTo({
                 center: [144, 37.5],
                 zoom: 4.8
@@ -97,7 +97,7 @@ function addMarkers(data, i) {
         let currentFeatureType = feature.properties.type;
         el.className += ' ' + currentFeatureType;
         el.addEventListener('click', () => { 
-            alert("The following content contains spoilers. Please proceed with caution. Also, videos will contain sound.");
+            alert("The following content contains spoilers. Videos will contain sound. Please proceed with caution.");
             map.flyTo({center: feature.geometry.coordinates, zoom:15});
             setTimeout(() => {
                 showOverlay(data, i);
