@@ -19,7 +19,6 @@
             "properties": {
                 "name": "Kobe 神戸市",
                 "description": "The city of where the original home of Seita and Setsuko was located.",
-                "media": "",
                 "type": "house"
             }
         },
@@ -32,7 +31,6 @@
             "properties": {
                 "name": "Niteko Pond, Nishinomiya 西宮市",
                 "description": "The place where Seita and Setsuko moved to after they decided to leave their aunt's house.",
-                "media": "",
                 "type": "house"
             }
         }

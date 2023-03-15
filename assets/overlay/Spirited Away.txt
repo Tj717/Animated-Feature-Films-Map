@@ -1,0 +1,69 @@
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 7</div>
+      <video controls>
+          <source src="../assets/clips/Spirited Away/station-5.57.mp4" type="video/mp4">
+      </video>
+      <div class="text">Chihiro and her family goes through the tunnel and arrives at a new world, at 5:57 of the movie</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 7</div>
+      <video controls>
+          <source src="../assets/clips/Spirited Away/bathhouse-10.16.mp4" type="video/mp4">
+      </video>
+      <div class="text">Chihiro walks around the town and discover a decorated bathhouse, at 10:16 of the movie</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 7</div>
+      <img src="../assets/clips/Spirited Away/bathhouse.jpg" class="maintain_ratio">
+      <div class="text special">The design of the bathhouse in Spirited Away is inspired by the Dogo Onsen in the city of Matsuyama</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 7</div>
+      <img src="../assets/clips/Spirited Away/edo.jpg" class="maintain_ratio">
+      <div class="text special">The design of the town is said to be inspired by the Edo-Tokyo Open Air Architectural Museum where the architecture style is that of Edo period.</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">5 / 7</div>
+      <img src="../assets/clips/Spirited Away/train.jpg" class="maintain_ratio">
+      <div class="text special">Train in Edo-Tokyo Open Air Architectural Museum.</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">6 / 7</div>
+      <video controls>
+          <source src="../assets/clips/Spirited Away/yubaba-34.30.mp4" type="video/mp4">
+      </video>
+      <div class="text special">Chihiro goes to Yubaba for a job, at 34.30 of the movie. We can see Yubaba's office has very glamorous western decorations.</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">7 / 7</div>
+      <video controls>
+          <source src="../assets/clips/Spirited Away/garden-47.10.mp4" type="video/mp4">
+      </video>
+      <div class="text special">Haku brings Chihiro to visit her parents and goes through a garden, at 47:10 of the movie. The rendering of the garden is very three-dimensional.</div>
+    </div>
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span>
+</div>

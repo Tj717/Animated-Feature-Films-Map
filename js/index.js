@@ -50,14 +50,22 @@ function createBlocks(data, i) {
         }
         addPoints(data, i);
         if (data['properties']['real_location']) {
-            map.fitBounds([
-                data['properties']['sw'], 
-                data['properties']['ne']
-            ]);
+            if (data['properties']['center']) {
+                map.flyTo({
+                    center: data['properties']['center'],
+                    zoom: data['properties']['zoom']
+                });
+            } else {
+                map.fitBounds([
+                    data['properties']['sw'], 
+                    data['properties']['ne']
+                ]);
+            }
         } else {
+            alert("The following content contains spoilers. Please proceed with caution. Also, videos will contain sound.");
             map.flyTo({
                 center: [144, 37.5],
-                zoom: 5
+                zoom: 4.8
             });
         }
     });
@@ -85,7 +93,7 @@ function addMarkers(data, i) {
             map.flyTo({center: feature.geometry.coordinates, zoom:15});
             setTimeout(() => {
                 showOverlay(data, i);
-            }, 800);
+            }, 2000);
         });
         // make a marker for each feature and add it to the map
         marker = new mapboxgl.Marker(el)

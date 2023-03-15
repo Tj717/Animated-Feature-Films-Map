@@ -3,19 +3,22 @@
     "properties": {
         "name": "My Neighbor Totoro",
         "description": "<em>My Neighbor Totoro (Japanese: となりのトトロ)</em> is a 1988 Japanese animated fantasy film that was written and directed by Hayao Miyazaki and animated by Studio Ghibli for Tokuma Shoten. The film tells the story of a professor's young daughters Satsuki and Mei, and their interactions with friendly wood spirits in postwar rural Japan.",
-        "real_location": true
+        "real_location": true,
+        "zoom": 11,
+        "sw": [139.39023429273595,35.76298090948647],
+        "ne": [139.44898532431884,35.786890278318516]
     },
     "features": [
         {
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [0,0]
+                "coordinates": [139.42183194525458,35.780320965027094]
             },
             "properties": {
-                "name": "My Neighbor Totoro",
-                "description": "",
-                "media": ""
+                "name": "Totoro Forrest #1",
+                "description": "Forest preserve in Sayama Hills, located across Tokorozawa, Saitama Prefecture. It was preserved due to the efforts of the Totoro no Furusato Foundation, founded in April 1990. Hayao Miyazaki has served as member of this organization.",
+                "type": "tree"
             }
         }
     ]

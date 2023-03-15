@@ -2,19 +2,34 @@
     "type": "FeatureCollection",
     "properties": {
         "name": "Spirited Away",
-        "description": "<em>Spirited Away (Japanese: 千と千尋の神隠し)</em> is a 2001 Japanese animated fantasy film written and directed by Hayao Miyazaki, animated by Studio Ghibli. It tells a story of Chihiro, a ten-year-old girl who, while moving to a new neighborhood, enters the world of spirits. It is the only hand-drawn and non-English-language animated film to had won the Academy Award for Best Animated Feature."
-        },
+        "description": "<em>Spirited Away (Japanese: 千と千尋の神隠し)</em> is a 2001 Japanese animated fantasy film written and directed by Hayao Miyazaki, animated by Studio Ghibli. It tells a story of Chihiro, a ten-year-old girl who, while moving to a new neighborhood, enters the world of spirits. It is the only hand-drawn and non-English-language animated film to had won the Academy Award for Best Animated Feature.",
+        "real_location": true,
+        "zoom": 6,
+        "center": [138,36]
+    },
         "features": [
         {
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [0,0]        
+                "coordinates": [132.7864292000827,33.85208683465677]        
             },
             "properties": {
-                "name": "Spirited Away",
-                "description": "",
-                "media": ""
+                "name": "Dogo Onsen (Ehime)",
+                "description": "Dogo Onsen is said to give an inspiration on the movie. It is located in Matsuyama, Ehime prefecture and was built in 1894. It is actually one of the oldest public bathhouse in Japan! Around Dogo Onsen, there are some other bathhouses and also more attractions such as shopping arcade, temples and shrines.",
+                "type": "entertainment"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [139.51254492415845,35.71557976542531]        
+            },
+            "properties": {
+                "name": "Edo Tokyo Tatemono-en",
+                "description": "An open air architectural museum located in Koganei, Tokyo. Bar Kagiya is said to be used for the first scene where Chihiro’s parents ate meals and turned into ugly pigs. Kodakara-Yu is one of the bathhouses that gave inspiration for the bathhouse where Chihiro started working under Yubaba.",
+                "type": "entertainment"
             }
         }
     ]

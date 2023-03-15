@@ -1,0 +1,64 @@
+<!-- Slideshow container -->
+<div class="slideshow-container">
+    
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 6</div>
+      <video controls>
+          <source src="../assets/clips/Kiki's Delivery Service/home-1.12.mp4" type="video/mp4">
+      </video>
+      <div class="text">Kiki running to her home, at 1:12 of the movie.</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 6</div>
+      <video controls>
+          <source src="../assets/clips/Kiki's Delivery Service/fly-07.36.mp4" type="video/mp4">
+      </video>
+      <div class="text">Kiki leaving her home for her one-year witch training, at 07:36 of the movie.</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 6</div>
+      <video controls>
+          <source src="../assets/clips/Kiki's Delivery Service/city-14.23.mp4" type="video/mp4">
+      </video>
+      <div class="text">Kiki sees the city for the first time and is astounded by the crowdedness, at 14:23 of the movie.</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 6</div>
+      <video controls>
+          <source src="../assets/clips/Kiki's Delivery Service/rain-58.56.mp4" type="video/mp4">
+      </video>
+      <div class="text">Kiki flying back home in the rain, at 58:56 of the movie.</div>
+    </div>
+
+        <div class="mySlides fade">
+    <div class="numbertext">5 / 6</div>
+      <video controls>
+          <source src="../assets/clips/Kiki's Delivery Service/bike-1.09.41.mp4" type="video/mp4">
+      </video>
+      <div class="text">Kiki and Tomba riding their flying bike on the road, at 1:09:41 of the movie.</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">6 / 6</div>
+        <img src="../assets/clips/Kiki's Delivery Service/eat-1.16.27.png">
+      <div class="text">Kiki and Jiji having dinner, at 1:16:27 of the film.</div>
+    </div>
+    
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+</div>

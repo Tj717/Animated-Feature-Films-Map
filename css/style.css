@@ -188,14 +188,29 @@ em {
     background-size: cover;
     width: 3vw;
     height: 3vw;
+    /* border: 13px solid rgb(255, 0, 0)e; */
+    background-color: rgb(130, 255, 119);
+    border-radius: 15%;
+    padding: 0;
     cursor: pointer;
-    border: 3px solid rgb(255, 0, 0)e;
-    background-color: beige;
-    border-radius: 50%;
+    outline-offset: 4px;
+    box-shadow: 2px 2px 2px 1px rgb(45, 0, 0);
+}
+
+.marker:hover {
+  background-color: rgb(57, 116, 255);
 }
 
 .house {
-    background-image: url("../assets/house.png");
+    background-image: url("../assets/icon/house.png");
+}
+
+.entertainment {
+  background-image: url("../assets/icon/entertainment.png");
+}
+
+.tree {
+  background-image: url("../assets/icon/tree.png");
 }
 
 .mapboxgl-popup {
@@ -316,7 +331,7 @@ font-family: 'Open Sans', sans-serif;
   to {opacity: 1}
 }
 
-video {
+video, iframe {
   width: 54vw;
   height: 30vw;
   margin-top: 5vw;
@@ -342,4 +357,15 @@ video {
 #close_button:hover {
   background-color: rgb(255, 134, 58);
   color: white;
+}
+
+.special {
+  color: #ffffff;
+  background-color: black;
+}
+
+.maintain_ratio {
+  width: 40vw;
+  margin-left: 30vw;
+  height: auto;
 }

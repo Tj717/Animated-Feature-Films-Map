@@ -15,18 +15,18 @@
       <video controls>
           <source src="../assets/clips/Grave of the Fireflies/trip2-24.20.mp4" type="video/mp4">
       </video>
-      <div class="text">Seita traveling from Kobe to Nishinomiya after getting supplies from his home, at 24.20 of the movie.</div>
+      <div class="text">Seita traveling from Kobe to Nishinomiya after getting supplies from his home, at 24:20 of the movie.</div>
     </div>
   
     <div class="mySlides fade">
       <div class="numbertext">3 / 7</div>
-      <img src="../assets/clips/Grave of the Fireflies/kobe2Nishinomiya.png"">
+      <img src="../assets/clips/Grave of the Fireflies/kobe2Nishinomiya.png">
       <div class="text">Distance between Kobe and Nishinomiya</div>
     </div>
 
     <div class="mySlides fade">
       <div class="numbertext">4 / 7</div>
-      <img src="../assets/clips/Grave of the Fireflies/pond1.png"">
+      <img src="../assets/clips/Grave of the Fireflies/pond1.png">
       <div class="text">Seita's soul recalling his memory at the pond</div>
     </div>
 
@@ -35,7 +35,7 @@
       <video controls>
           <source src="../assets/clips/Grave of the Fireflies/pond-47.20.mp4" type="video/mp4">
       </video>
-        <div class="text">Niteko Pond, at 47.20 of the movie</div>
+        <div class="text">Niteko Pond, at 47:20 of the movie</div>
     </div>
 
     <div class="mySlides fade">
@@ -43,7 +43,7 @@
       <video controls>
           <source src="../assets/clips/Grave of the Fireflies/pond2-1.20.11.mp4" type="video/mp4">
       </video>
-        <div class="text">Niteko Pond, at 1:20.11 of the movie</div>
+        <div class="text">Niteko Pond, at 1:20:11 of the movie</div>
     </div>
 
     <div class="mySlides fade">
@@ -51,7 +51,7 @@
         <video controls>
           <source src="../assets/clips/Grave of the Fireflies/kobe-1.25.40_Trim.mp4" type="video/mp4">
       </video>
-        <div class="text">Seita's soul looking at modern day Kobe city, at 1.25.40 of the movie</div>
+        <div class="text">Seita's soul looking at modern day Kobe city, at 1:25:40 of the movie</div>
     </div>
 
     <!-- Next and previous buttons -->

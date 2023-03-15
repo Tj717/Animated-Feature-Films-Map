@@ -1,0 +1,101 @@
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 10</div>
+      <video controls>
+          <source src="../assets/clips/My Neighbor Totoro/move-4.14.mp4" type="video/mp4">
+      </video>
+      <div class="text">Satsuki, Mei, and their dad moving to their new home at 4:14 of the film.</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 10</div>
+      <video controls>
+          <source src="../assets/clips/My Neighbor Totoro/first-28.57.mp4" type="video/mp4">
+      </video>
+      <div class="text">Mei's first encounter with a mysterious creature that looks like Totoro, at 28:57 of the film.</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 10</div>
+      <video controls>
+          <source src="../assets/clips/My Neighbor Totoro/totoro-31.50.mp4" type="video/mp4">
+      </video>
+      <div class="text">Mei's falls down the tree trunk and meets Totoro, at 31:50 of the film.</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">4/ 10</div>
+      <video controls>
+          <source src="../assets/clips/My Neighbor Totoro/pray2tree-40.44.mp4" type="video/mp4">
+      </video>
+      <div class="text">The three pray to the tree where Totoro lives, at 40:44 of the film.</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">5 / 10</div>
+        <img src="../assets/clips/My Neighbor Totoro/bus-51.13.png">
+      <div class="text">Satsuki, Mei, and Totoro waiting for their buses in the rain, at 51:13 of the film.</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">6 / 10</div>
+      <video controls>
+          <source src="../assets/clips/My Neighbor Totoro/plant-57.57.mp4" type="video/mp4">
+      </video>
+        <div class="text">Satsuki, Mei, and Totoro using magic to accerlate the growth of the acorns, at 57:57 of the movie</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">7 / 10</div>
+        <img src="../assets/clips/My Neighbor Totoro/fly-1.00.31.png">
+      <div class="text">Totoro flying with Satsuki and Mei, at 1:00:31 of the film.</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">8 / 10</div>
+        <video controls>
+          <source src="../assets/clips/My Neighbor Totoro/totoro2-1.17.03.mp4" type="video/mp4">
+        </video>
+        <div class="text">Satsuki looking for Totoro for help, at 1:17:03 of the movie</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">9 / 10</div>
+        <img class="maintain_ratio" src="../assets/clips/My Neighbor Totoro/osanpomap.jpg">
+      <div class="text special">The village in the film is modeled after Sayama Hills. Totoro no Furusato Foundation (or Totoro Fund) was formed to preserve the area that was in danger of being destroyed by urbanization. <a href="https://www.totoro.or.jp/intro/stroll_guide/img/osanpomap3_2.jpg" target="_blank">Original Image</a></div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">9 / 10</div>
+          <img src="../assets/clips/My Neighbor Totoro/hike.png">
+        <div class="text special"><a href="https://www.google.com/maps/d/viewer?mid=1Q9XYcCAUvr3aBH8e02aI9rXz_1c&ll=35.780913037724495%2C139.41844043104132&z=15" target="_blank">Hiking Guide</a> of the Toroto Forrests.</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">9 / 10</div>
+        <img src="../assets/clips/My Neighbor Totoro/totoro.jpg">
+      <div class="text">A lifesize Totoro at the Kurosuke house at the Totoro forrest.</div>
+    </div>
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+    <span class="dot" onclick="currentSlide(7)"></span>
+  <span class="dot" onclick="currentSlide(8)"></span>
+  <span class="dot" onclick="currentSlide(9)"></span>
+  <span class="dot" onclick="currentSlide(10)"></span>
+</div>
