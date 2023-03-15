@@ -12,11 +12,6 @@ let map = new mapboxgl.Map({
     projection: {
         name: 'mercator'
     },
-    // projection: {
-    //     name: 'albers',
-    //     center: [140, 37],
-    //     parallels:  [140, 37]
-    // }
 });
 
 
@@ -36,7 +31,6 @@ async function addData(id) {
 }
 
 function populateList() {
-    // let length = Object.keys(data['features']).length;
     for (let i = 1; i <= 10; i++) {
         addData(i)
         .then(data => {createBlocks(data, i)})
@@ -87,6 +81,7 @@ function addMarkers(data, i) {
         let currentFeatureType = feature.properties.type;
         el.className += ' ' + currentFeatureType;
         el.addEventListener('click', () => { 
+            alert("The following content contains spoilers. Please proceed with caution. Also, videos will contain sound.");
             map.flyTo({center: feature.geometry.coordinates, zoom:15});
             setTimeout(() => {
                 showOverlay(data, i);

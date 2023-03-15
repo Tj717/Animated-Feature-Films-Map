@@ -4,13 +4,17 @@
     <!-- Full-width images with number and caption text -->
     <div class="mySlides fade">
       <div class="numbertext">1 / 7</div>
-      <iframe src="../assets/clips/Grave of the Fireflies/trip1-23.30.mp4" width="70vw" height="90%"></iframe>
+      <video controls>
+          <source src="../assets/clips/Grave of the Fireflies/trip1-23.30.mp4" type="video/mp4">
+      </video>
       <div class="text">Seita traveling from Kobe to Nishinomiya after getting supplies from his home, at 23:30 of the movie</div>
     </div>
   
     <div class="mySlides fade">
       <div class="numbertext">2 / 7</div>
-      <iframe src="../assets/clips/Grave of the Fireflies/trip2-24.20.mp4" width="70vw" height="90%"></iframe>
+      <video controls>
+          <source src="../assets/clips/Grave of the Fireflies/trip2-24.20.mp4" type="video/mp4">
+      </video>
       <div class="text">Seita traveling from Kobe to Nishinomiya after getting supplies from his home, at 24.20 of the movie.</div>
     </div>
   
@@ -28,19 +32,25 @@
 
     <div class="mySlides fade">
         <div class="numbertext">5 / 7</div>
-        <iframe src="../assets/clips/Grave of the Fireflies/pond-47.20.mp4" width="70vw" height="90%"></iframe>
+      <video controls>
+          <source src="../assets/clips/Grave of the Fireflies/pond-47.20.mp4" type="video/mp4">
+      </video>
         <div class="text">Niteko Pond, at 47.20 of the movie</div>
     </div>
 
     <div class="mySlides fade">
         <div class="numbertext">6 / 7</div>
-        <iframe src="../assets/clips/Grave of the Fireflies/pond2-1.20.11.mp4" width="70vw" height="90%"></iframe>
+      <video controls>
+          <source src="../assets/clips/Grave of the Fireflies/pond2-1.20.11.mp4" type="video/mp4">
+      </video>
         <div class="text">Niteko Pond, at 1:20.11 of the movie</div>
     </div>
 
     <div class="mySlides fade">
         <div class="numbertext">7 / 7</div>
-        <iframe src="../assets/clips/Grave of the Fireflies/kobe-1.25.40_Trim.mp4" width="70vw" height="90%"></iframe>
+        <video controls>
+          <source src="../assets/clips/Grave of the Fireflies/kobe-1.25.40_Trim.mp4" type="video/mp4">
+      </video>
         <div class="text">Seita's soul looking at modern day Kobe city, at 1.25.40 of the movie</div>
     </div>
 
@@ -60,34 +70,3 @@
   <span class="dot" onclick="currentSlide(6)"></span>
   <span class="dot" onclick="currentSlide(7)"></span>
 </div>
-
-<script>
-  let slideIndex = 1;
-  showSlides(slideIndex);
-
-  // Next/previous controls
-  function plusSlides(n) {
-    showSlides(slideIndex += n);
-  }
-
-  // Thumbnail image controls
-  function currentSlide(n) {
-    showSlides(slideIndex = n);
-  }
-
-  function showSlides(n) {
-    let i;
-    let slides = document.getElementsByClassName("mySlides");
-    let dots = document.getElementsByClassName("dot");
-    if (n > slides.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = slides.length}
-    for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-    }
-    for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";
-    dots[slideIndex-1].className += " active";
-  }
-</script>
