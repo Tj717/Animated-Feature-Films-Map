@@ -389,5 +389,5 @@ video, iframe {
 .maintain_ratio {
   height: 60vw;
   margin-left: 30vw;
-  height: auto;
+  width: auto;
 }
