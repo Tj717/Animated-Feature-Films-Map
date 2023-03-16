@@ -41,8 +41,8 @@ body {
     }
 
 #container1 {
-    width: 30%;
-    height: 15%;
+    width: 30vw;
+    height: 4vw;
     opacity: 95%;
     background-color: rgba(2, 2, 2, 0.621);
     font-size: 1vw;
@@ -51,6 +51,11 @@ body {
     justify-content: flex-start;
     color: rgb(254, 254, 254);
     flex-direction: column;
+}
+
+#container1 p {
+  color: black;
+  font-weight: bold;
 }
 
 #container2 {
@@ -225,6 +230,18 @@ em {
   background-image: url("../assets/icon/farm.png");
 }
 
+.uni {
+  background-image: url("../assets/icon/uni.png");
+}
+
+.stairs {
+  background-image: url("../assets/icon/stairs.png");
+}
+
+.art {
+  background-image: url("../assets/icon/art.png");
+}
+
 .mapboxgl-popup {
     max-width: 5vw;
 }
@@ -233,13 +250,6 @@ em {
 text-align: center;
 font-family: 'Open Sans', sans-serif;
 }
-
-
-
-
-
-
-
 
 
 * {box-sizing:border-box}
@@ -377,7 +387,7 @@ video, iframe {
 }
 
 .maintain_ratio {
-  width: 40vw;
+  height: 60vw;
   margin-left: 30vw;
   height: auto;
 }

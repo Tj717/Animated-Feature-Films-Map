@@ -2,23 +2,47 @@
     "type": "FeatureCollection",
     "properties": {
         "name": "Your Name",
-        "description": "<em>Your Name (Japanese: 君の名は。)</em> is a 2016 Japanese animated romantic fantasy film, written and irected by Makoto Shinkai. It depicts a high school boy in Tokyo and a high school girl in the Japanese countryside who suddenly and inexplicably begin to swap bodies. The film grossed over ¥41.44 billion (US$382 million) worldwide, breaking numerous box office records, including becoming the third highest-grossing anime film of all time"
+        "description": "<em>Your Name (Japanese: 君の名は。)</em> is a 2016 Japanese animated romantic fantasy film, written and irected by Makoto Shinkai. It depicts a high school boy in Tokyo and a high school girl in the Japanese countryside who suddenly and inexplicably begin to swap bodies. The film grossed over ¥41.44 billion (US$382 million) worldwide, breaking numerous box office records, including becoming the third highest-grossing anime film of all time",
+        "real_location": true,
+        "zoom": 6,
+        "center": [140,36]
     },
     "features": [
         {
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [
-                    -122.3408925,
-                    47.61239802
-                ]
+                "coordinates": [139.72637542977074,35.66530199900898]
             },
             "properties": {
-                "name": "Your Name",
-                "description": "",
+                "name": "The National Art Center, Tokyo",
+                "description": "The National Art Center, Tokyo was founded in 2007 with the mission of contributing to the creation of a new culture that advances mutual understanding and inclusion through the power of art.",
+                "type": "art"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [139.72247592425782,35.68528426990245]
+            },
+            "properties": {
+                "name": "Suga Shrine 須賀神社",
+                "description": "The shrine near the stairs where Mitsuha and Taki finally meet at the end of the movie.",
                 "type": "house"
             }
+        },        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [137.1856476598853,36.23796174263979]
+            },
+            "properties": {
+                "name": "Hida City Library 飛驒市図書館",
+                "description": "The library where Taki and his friends did research about the comet and the town of Itomori.",
+                "type": "uni"
+            }
         }
+        
     ]
 }

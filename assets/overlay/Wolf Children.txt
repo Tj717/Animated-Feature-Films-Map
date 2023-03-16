@@ -2,21 +2,56 @@
 <div class="slideshow-container">
 
     <div class="mySlides fade">
-      <div class="numbertext"> / 7</div>
+      <div class="numbertext">1 / 7</div>
       <video controls>
-          <source src="../assets/clips/Wolf Children/.mp4" type="video/mp4">
+          <source src="../assets/clips/Wolf Children/uni-2.03.mp4" type="video/mp4">
       </video>
-      <div class="text">, at of the movie.</div>
+      <div class="text">Hana going to classes at her university in Tokyo, at 2:03 of the movie.</div>
     </div>
 
     <div class="mySlides fade">
-      <div class="numbertext"> / 7</div>
-      <img src="../assets/clips/Wolf Children/.png" class="maintain_ratio">
-      <div class="text"></div>
+      <div class="numbertext">2 / 7</div>
+      <img src="../assets/clips/Wolf Children/uni.png" class="maintain_ratio">
+      <div class="text special">The university in the film is based on Hitotsubashi University in Tokyo.</div>
     </div>
 
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 7</div>
+      <video controls>
+          <source src="../assets/clips/Wolf Children/street-7.50.mp4" type="video/mp4">
+      </video>
+      <div class="text">Hana walking on the streets of Toyko, at 7:50 of the movie.</div>
+    </div>
 
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 7</div>
+      <img src="../assets/clips/Wolf Children/crosswalk-25.19.png" class="maintain_ratio">
+      <div class="text">Hana is conflicted between sending her kids to the children's hospital or animals' hospital, at 25:19 of the movie.</div>
+    </div>
 
+    <div class="mySlides fade">
+      <div class="numbertext">5 / 7</div>
+      <img src="../assets/clips/Wolf Children/house.jpg" class="maintain_ratio">
+      <div class="text special">Hana's farmhouse is based on a real-life farm house in Kamiichi.</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">6 / 7</div>
+      <img src="../assets/clips/Wolf Children/house2.png" class="maintain_ratio">
+      <div class="text special">Related Travel Guides:
+      <br>
+        <a href="https://en.japantravel.com/toyama/ookami-kodomo-no-hana-no-ie/16355">
+        Wolf Children Ame and Yuki's house</a>
+        <br> and
+        <a href="https://ookamikodomonohananoie.jp/index-e.html">Official Website of the house</a>
+      </div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">7 / 7</div>
+      <img src="../assets/clips/Wolf Children/bath.png" class="maintain_ratio">
+      <div class="text special">Comparison between the real-life farmhouse's bathtub and the movie's depiction of the family's bathtub.</div>
+    </div>
 
     <!-- Next and previous buttons -->
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>

@@ -4,20 +4,32 @@
         "name": "Wolf Children",
         "description": "<em>Wolf Children (Japanese: おおかみこどもの雨と雪)</em> is a 2012 Japanese anime drama film directed and co-written by Mamoru Hosoda. The story's depicts 13 years in the life of a young woman, Hana, who falls in love with a werewolf while in college, and following his death must raise the resulting half-wolf half-human siblings, Ame and Yuki, who grow and find their own paths in life. In total, Wolf Children grossed 4.2 billion yen, making it the fifth-highest-grossing movie in Japan in 2012.",
         "real_location": true,
-        "zoom": 9,
-        "center": [137.3577083231738,36.70431572715309]
+        "zoom": 6,
+        "center": [140,36]
     },
     "features": [
         {
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [137.3577083231738,36.70431572715309]
+                "coordinates": [139.44544064378402,35.694491008221114]
             },
             "properties": {
-                "name": "Kamiichi 上市町, Toyama",
-                "description": "The town has a Humid subtropical climate characterized by hot summers and cold winters with heavy snowfall.",
-                "type": "farm"
+                "name": "Hitotsubashi University (一橋大学)",
+                "description": "The university is where Hana and the wolf man studied and met for the first time. Said to be based on the real-life Hitotsubashi University in Tokyo, Japan.",
+                "type": "uni"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [137.40585123925763,36.65999137129991]
+            },
+            "properties": {
+                "name": "Hana's farmhouse (おおかみこどもの花の家)",
+                "description": "The farmhouse where Hana, Yuki, and Ame lived together. Based on the real-life farmhouse in Kamiichi-machi.",
+                "type": "house"
             }
         }
     ]
