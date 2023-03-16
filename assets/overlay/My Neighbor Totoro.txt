@@ -69,13 +69,13 @@
     </div>
 
     <div class="mySlides fade">
-        <div class="numbertext">9 / 10</div>
+        <div class="numbertext">10 / 10</div>
           <img src="../assets/clips/My Neighbor Totoro/hike.png">
         <div class="text special"><a href="https://www.google.com/maps/d/viewer?mid=1Q9XYcCAUvr3aBH8e02aI9rXz_1c&ll=35.780913037724495%2C139.41844043104132&z=15" target="_blank">Hiking Guide</a> of the Toroto Forrests.</div>
     </div>
 
     <div class="mySlides fade">
-      <div class="numbertext">9 / 10</div>
+      <div class="numbertext">Bonus</div>
         <img src="../assets/clips/My Neighbor Totoro/totoro.jpg">
       <div class="text">A lifesize Totoro at the Kurosuke house at the Totoro forrest.</div>
     </div>
