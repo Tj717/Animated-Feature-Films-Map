@@ -21,7 +21,7 @@ Inside the media overlay, you can use the "<" and ">" or the dots below the medi
 
 <img src="assets/guide/guide4.png"  width="800" height="400">
 <hr>
-Lastly, the side panel will occasionally not load or other problems might occur that makes the map mess up. Refreshing the page can usually resolve the problem. If that's doesn't work, please contact me or create an <a href="https://github.com/Tj717/Animated-Feature-Films-Map/issues">Issue</a> on this GitHub repo.
+Lastly, the side panel will occasionally not load or other problems might occur that makes the map mess up. Refreshing the page can usually resolve the problem. If that's doesn't work, please contact me or create an <a href="https://github.com/Tj717/Animated-Feature-Films-Map/issues">Issue</a> in this GitHub repo.
 <hr>
 
 ## Acknowledgements
