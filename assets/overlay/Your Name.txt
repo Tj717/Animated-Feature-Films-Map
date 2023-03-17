@@ -57,8 +57,8 @@
     <div class="mySlides fade">
       <div class="numbertext">8 / 8</div>
       <img src="../assets/clips/Your Name/rikao.png" class="maintain_ratio">
-      <div class="text special">According to Japanese fiction writer Rikao Yanagita's 
-      <a href="https://news.yahoo.co.jp/byline/yanagitarikao/20221028-00321547" target="_blank">article</a> published on October 28th, 2022, the probability for Taki and Mitsuha finding themselves at the Suga Shrine after seeing each other in the train is about「17京（けい）3133兆4989億5612万分の1」, or 0.00000000000000057758897%. Looks like fate wants them to be together.
+      <div class="text special">According to Japanese fiction writer Rikao Yanagita's amazing
+      <a href="https://news.yahoo.co.jp/byline/yanagitarikao/20221028-00321547" target="_blank">article</a> published on October 28th, 2022, the probability for Taki and Mitsuha finding themselves at the Suga Shrine at that exact moment after seeing each other in their trains is about「299溝（こう）7520穣（じょう）8460杼7888垓分の1」,  which is already harder than guessing a 34-digits password! Looks like fate really wants them to be together.
        </div>
     </div>
 
