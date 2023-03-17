@@ -14,7 +14,7 @@
       <video controls>
           <source src="../assets/clips/Kiki's Delivery Service/fly-07.36.mp4" type="video/mp4">
       </video>
-      <div class="text">Kiki leaving her home for her one-year witch training, at 07:36 of the movie.</div>
+      <div class="text special">Kiki leaving her home for her one-year witch training, at 07:36 of the movie.</div>
     </div>
     
     <div class="mySlides fade">
@@ -30,7 +30,7 @@
       <video controls>
           <source src="../assets/clips/Kiki's Delivery Service/rain-58.56.mp4" type="video/mp4">
       </video>
-      <div class="text">Kiki flying back home in the rain, at 58:56 of the movie.</div>
+      <div class="text">Kiki flying back home in the rain after delivering a pie to an unappreciative customer, at 58:56 of the movie.</div>
     </div>
 
         <div class="mySlides fade">

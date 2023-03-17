@@ -77,7 +77,7 @@
     <div class="mySlides fade">
       <div class="numbertext">Bonus</div>
         <img src="../assets/clips/My Neighbor Totoro/totoro.jpg">
-      <div class="text">A lifesize Totoro at the Kurosuke house at the Totoro forrest.</div>
+      <div class="text special">A lifesize Totoro at the Kurosuke house at the Totoro forrest.</div>
     </div>
 
     <!-- Next and previous buttons -->

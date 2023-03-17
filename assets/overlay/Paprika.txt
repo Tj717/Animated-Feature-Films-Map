@@ -34,7 +34,7 @@
     <div class="mySlides fade">
       <div class="numbertext">5 / 9</div>
       <img src="../assets/clips/Paprika/paparika-and-dr-1.13.35.png" class="maintain_ratio">
-      <div class="text">Dr. Chiba Atsuko meets Paprika appears together saves the chief, at 1:13:35 of the movie.</div>
+      <div class="text">Dr. Chiba Atsuko and Paprika appears together and saves the chief, at 1:13:35 of the movie.</div>
     </div>
 
     <div class="mySlides fade">
@@ -46,7 +46,7 @@
     <div class="mySlides fade">
       <div class="numbertext">7 / 9</div>
       <img src="../assets/clips/Paprika/hole-1.16.48.png" class="maintain_ratio">
-      <div class="text">The city collapse into the blackhole, at 1:16:48 of the movie.</div>
+      <div class="text">The city collapses into a blackhole, at 1:16:48 of the movie.</div>
     </div>
 
     <div class="mySlides fade">

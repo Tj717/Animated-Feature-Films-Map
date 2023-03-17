@@ -32,7 +32,7 @@
     <div class="mySlides fade">
       <div class="numbertext">5 / 7</div>
       <img src="../assets/clips/Wolf Children/house.jpg" class="maintain_ratio">
-      <div class="text special">Hana's farmhouse is based on a real-life farm house in Kamiichi.</div>
+      <div class="text special">Hana's farmhouse is based on a real-life farmhouse in Kamiichi.</div>
     </div>
 
     <div class="mySlides fade">

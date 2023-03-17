@@ -21,7 +21,7 @@
     <div class="mySlides fade">
       <div class="numbertext">3 / 7</div>
       <img src="../assets/clips/Grave of the Fireflies/kobe2Nishinomiya.png">
-      <div class="text">Distance between Kobe and Nishinomiya</div>
+      <div class="text special">Distance between Kobe and Nishinomiya</div>
     </div>
 
     <div class="mySlides fade">
