@@ -5,7 +5,7 @@
 This is the final project for Japan 360: Japanese Anime Feature Films. This project aims to visualize the significant places in the films we watched throughout the quarter and to provide a brief description and the backstory of those scenes.
 
 ## Usage Guide
-After entering the map by clicking on (Access), there will be a warning about spoilers and sounds. After closing that, the main page will be shown like below. The areas highlighted are sections that can be clicked to access content. The side panel on the right can be scrolled up and down to show more movies.
+After entering the map by clicking on the blue "Access" in Access the Map above, there will be a warning about spoilers and sounds. After closing that, the main page will be shown like below. The areas highlighted are sections that can be clicked to access content. The side panel on the right can be scrolled up and down to show more movies.
 
 <img src="assets/guide/guide1.png"  width="800" height="400">
 <hr>
