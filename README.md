@@ -1,6 +1,6 @@
 # Animated-Feature-Films-Map
 
->  [Access](https://elaborate-crumble-7f08ba.netlify.app) the Map 
+> [Access](https://elaborate-crumble-7f08ba.netlify.app){:target="_blank"} the Map
 
 This is my final project for Japan 360: Japanese Anime Feature Films. This project aims to visualize the significant places in the films we watched throughout the class and to provide brief descriptions, backstories, and fun facts about those films.
 
